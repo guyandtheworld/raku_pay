@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "750770917451",
+    "firebase_url": "https://paymebitches-fdf0d.firebaseio.com",
+    "project_id": "paymebitches-fdf0d",
+    "storage_bucket": "paymebitches-fdf0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750770917451:android:be729065c4f3c847",
+        "android_client_info": {
+          "package_name": "com.example.rakupay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750770917451-s7jm6fdgl60v5d2c4c3etpn4remr6bfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhr0kl6LLkLyLuAlqEI38ETzOKSqo3tQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750770917451:android:e8e43f260e9b2780",
+        "android_client_info": {
+          "package_name": "com.sadf.sup.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750770917451-s7jm6fdgl60v5d2c4c3etpn4remr6bfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhr0kl6LLkLyLuAlqEI38ETzOKSqo3tQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
