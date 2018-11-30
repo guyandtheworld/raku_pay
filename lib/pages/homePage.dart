@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage>
   //   new Transaction("efgh", "ijkl", "", "", 200.0),
   //   new Transaction("efgh", "abcd", "", "", 500.0),
   // ];
-
+  
   List<Group> glist = [
     new Group("Kuriakose", "Go Trip", ["Kuriakose", "Tino", "Jithin"],
         [100.0, 20.0, 500.0], [false, false, false]),
@@ -51,9 +51,10 @@ class _HomePageState extends State<HomePage>
           actions: <Widget>[
             MaterialButton(
               onPressed: () {
+                
                 print("Profile Pressed");
-                Navigator.of(context).push(new MaterialPageRoute(
-                    builder: (BuildContext context) => new AccountPage(tlist)));
+                //Navigator.of(context).push(new MaterialPageRoute(
+                  //  builder: (BuildContext context) => new AccountPage(tlist)));
               },
               child: Image(
                 image: new AssetImage('assets/userPic.png'),
@@ -69,7 +70,7 @@ class _HomePageState extends State<HomePage>
             "AppName",
             style: new TextStyle(color: Colors.white),
           ),
-          backgroundColor: Colors.deepPurpleAccent,
+          backgroundColor: Colors.deepOrangeAccent,
           bottom: TabBar(
             indicatorColor: Colors.white,
             controller: controller,

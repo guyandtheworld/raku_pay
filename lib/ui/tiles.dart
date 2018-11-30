@@ -21,15 +21,29 @@ class GroupTile extends StatelessWidget {
     return Container(
       child: InkWell(
         onTap: () => _onTap(),
-        child: Row(
-          children: <Widget>[
-            Image(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Row(
+            children: <Widget>[
+              Image(
 							image: new AssetImage('assets/userPic.png'),
-							height: 150.0,
-							width: 150.0,
-						),
-            Text(gname),
-          ],
+							height: 60.0,
+							width: 60.0,
+						  ),
+              SizedBox(
+                width: 8.0,
+              ),
+              Text(gname, style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
+              Expanded(
+                child: Container(),
+              ),
+              Icon(
+                Icons.arrow_forward_ios,
+                color: Color(0x33000000),
+              ),
+
+            ],
+          ),
         ),
       ),
     );

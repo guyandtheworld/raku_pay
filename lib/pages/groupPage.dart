@@ -25,6 +25,8 @@ class _GroupPageState extends State<GroupPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return ListView(
+      children: gwlist
+    );
   }
 }
